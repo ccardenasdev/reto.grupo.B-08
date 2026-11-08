@@ -11,7 +11,8 @@
     "test": "vitest run tests/db tests/ui",
     "test:e2e": "vitest run --config vitest.e2e.config.ts",
     "demo": "node scripts/demo-local.mjs",
-    "vercel:preparar": "npm run build && node scripts/preparar-vercel.mjs"
+    "vercel:preparar": "npm run build && node scripts/preparar-vercel.mjs",
+    "netlify:preparar": "npm run build && node scripts/preparar-netlify.mjs"
   },
   "dependencies": {
     "@fontsource-variable/archivo": "^5.3.0",
